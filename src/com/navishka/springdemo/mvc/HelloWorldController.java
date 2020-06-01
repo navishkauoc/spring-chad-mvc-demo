@@ -21,6 +21,7 @@ public class HelloWorldController {
 		return "helloworld";
 	}
 	
+	@RequestMapping("/processFormVersionTwo")
 	//New controller method to read form data and add data model
 	public String letsShouOut(HttpServletRequest request, Model model) {
 		
