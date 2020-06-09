@@ -22,7 +22,7 @@
 			
 			<br><br>
 			
-			Lastname: <form:input path="lastName" />
+			Lastname(*): <form:input path="lastName" />
 			<form:errors path="lastName" cssClass="error" />
 			
 			<br><br>
