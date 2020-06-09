@@ -19,6 +19,7 @@ public class CustomerController {
 		return "customer-form";
 	}
 	
+	@RequestMapping("/processForm")
 	public String processForm(@Valid @ModelAttribute("customer") Customer theCustomer, BindingResult theBindingResult) {
 		if(theBindingResult.hasErrors()) {
 			return "customer-form";
