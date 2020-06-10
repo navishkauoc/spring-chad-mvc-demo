@@ -14,7 +14,7 @@ public class Customer {
 	private String lastName;
 	
 	@Min(value=0, message="Must be greater than or equal to zero")
-	@Max(value=0, message="Must be less than or equal to 10")
+	@Max(value=10, message="Must be less than or equal to 10")
 	private int freePasses;
 
 	public String getFirstName() {

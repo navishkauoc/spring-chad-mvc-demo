@@ -11,6 +11,6 @@
 	
 	<br><br>
 	
-	Country: ${student.country}
+	Free passes: ${customer.freePasses}
 </body>
 </html>
